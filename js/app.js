@@ -1,2 +1,8 @@
+console.log('hello world'); 
+  
+    addText.textContent = "Hello world";  
+    var text = div.textContent;
 
-console.log('hello world');  
+ var suprimId = document.getElementById("addText");  
+ 
+
