@@ -4,6 +4,10 @@ console.log('hello world');
     
 
  	var suprimId = document.getElementById("remove"); 
- 	suprimId.parentNode.removeChild(remove);
+ 	suprimId.remove();
+ 	console.log(suprimId);
  
 
+ 	var changeColor = document.getElementById('changeColor');
+ 	console.log(changeColor);
+ 	changeColor.style.backgroundColor = "red";
