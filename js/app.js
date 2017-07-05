@@ -11,3 +11,14 @@ console.log('hello world');
  	var changeColor = document.getElementById('changeColor');
  	console.log(changeColor);
  	changeColor.style.backgroundColor = "red";
+
+ 	var balise = document.getElementById("addChildren");
+ 	balise.innerHTML = "<p></p><p><p><p>";
+ 	console.log(balise);
+
+ 	
+
+ 
+
+
+
