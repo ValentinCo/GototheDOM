@@ -1,8 +1,9 @@
 console.log('hello world'); 
   
-    addText.textContent = "Hello world";  
-    var text = div.textContent;
+    addText.textContent = "Hello world";  //la division addtext contien "hello world"
+    
 
- var suprimId = document.getElementById("addText");  
+ 	var suprimId = document.getElementById("remove"); 
+ 	suprimId.parentNode.removeChild(remove);
  
 
