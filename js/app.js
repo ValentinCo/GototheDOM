@@ -1,4 +1,4 @@
-Bonjour
+$("#addText").html("Hello world");
 
  	
 
